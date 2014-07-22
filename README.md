@@ -12,7 +12,9 @@ By calling the function runanalysis() contained within run_analysis.R, the funct
 - a table containing the mean and standard deviation for each measurement taken
 - a table containing the mean for each measurement taken for each subject and activity
 
-Note: to use this script, the working directory needs to be set to the folder that contains the readme file for the data.
+*To use the output tables in subsequent analysis, read them into R using the read.table() function.*
+
+***Note***: to use this script, the working directory needs to be set to the folder that contains the readme file for the data.
 
 Below is the R source code for the run_analysis.R file:
 
