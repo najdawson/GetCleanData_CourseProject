@@ -1,10 +1,5 @@
 runanalysis <- function() {
-        library(plyr)
-        library(xlsx)
-        
-        wd <- getwd()
-        fileloc <- "/Coursera/Course 3 - Getting and Cleaning Data/UCI HAR Dataset"
-        setwd(paste(wd, fileloc, sep = ""))
+        library(plyr) #load plyr
         
         #import training set
         subtrain <- read.table("./train/subject_train.txt")
